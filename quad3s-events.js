@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // Using same Formspree endpoint - submissions tagged with formSource: 'Events Page'
-            const response = await fetch('https://formspree.io/f/xnjloypg', {
+            const response = await fetch('https://formspree.io/f/xkolabwa', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
